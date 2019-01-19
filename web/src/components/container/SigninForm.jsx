@@ -2,9 +2,12 @@ import React from 'react';
 import propTypes from 'prop-types';
 import TextInputField from './TextInputField';
 
-const SigninForm = ({ user: { username, password }, onSignin, onFormFieldChange }) => (
+const SigninForm = ({
+  user: { username, password }, onSignin, onFormFieldChange, signInError
+}) => (
   <React.Fragment>
     <h3>Sign in</h3>
+    {signInError && signInError.map(error => <span key={new Date()} className="error">{error}</span>)}
     <form onSubmit={onSignin}>
       <TextInputField
         name="username"
@@ -23,7 +26,7 @@ const SigninForm = ({ user: { username, password }, onSignin, onFormFieldChange 
         value={password}
       />
       <button type="submit" className="btn">
-        Sign in
+          Sign in
       </button>
     </form>
   </React.Fragment>
