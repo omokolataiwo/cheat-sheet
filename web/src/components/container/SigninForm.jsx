@@ -3,7 +3,11 @@ import propTypes from 'prop-types';
 import TextInputField from './TextInputField';
 
 const SigninForm = ({
-  user: { username, password }, onSignin, onFormFieldChange, signInError, errors
+  user: { username, password },
+  onSignin,
+  onFormFieldChange,
+  signInError,
+  errors
 }) => (
   <React.Fragment>
     <h3>Sign in</h3>
@@ -16,9 +20,9 @@ const SigninForm = ({
     <form onSubmit={onSignin}>
       <TextInputField
         name="username"
-        placeholder="username"
         type="text"
         size="3"
+        label="Email Address"
         onChange={onFormFieldChange}
         value={username}
         errors={errors.username}
@@ -26,6 +30,7 @@ const SigninForm = ({
       <TextInputField
         name="password"
         placeholder="password"
+        label="Password"
         type="password"
         size="3"
         onChange={onFormFieldChange}

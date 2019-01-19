@@ -27,25 +27,34 @@ class AuthUser extends Component {
     }
   }
 
+  renderFavoriteCheat = () => {
+    const { cheat: { favorite } } = this.props;
+
+    if (!favorite.length) {
+      return (<div className="no-favorite-cheat">You don't have favorite cheat yet.</div>);
+    }
+    return (
+      <Masonry key={new Date()} className="cheat-masonry-grid">
+        {localStorage.getItem('token')
+        && favorite.map(favorite => (
+          <div className="category-section">
+            <Cheat cheat={favorite} showActionBar={false} />
+          </div>
+        ))}
+      </Masonry>
+    );
+  }
+
   render() {
     const {
-      cheat,
       history: { push }
     } = this.props;
-    const { favorite } = cheat;
 
     return (
       <div className="container">
         <h4>Favorite Cheats</h4>
         <hr />
-        <Masonry key={new Date()} className="cheat-masonry-grid">
-          {localStorage.getItem('token')
-            && favorite.map(favorite => (
-              <div className="category-section">
-                <Cheat cheat={favorite} showActionBar={false} />
-              </div>
-            ))}
-        </Masonry>
+        {this.renderFavoriteCheat()}
       </div>
     );
   }

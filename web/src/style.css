@@ -64,3 +64,20 @@ nav .brand-logo {
 .error {
   color: red;
 }
+
+#search-input {
+  width: 93%;
+}
+
+label > i {
+  color: red;
+  margin: 2px; 
+  float: left;
+}
+
+.no-favorite-cheat {
+  text-align: center;
+  margin: 5%;
+  font-size: 2em;
+  color: #ccc;
+}
