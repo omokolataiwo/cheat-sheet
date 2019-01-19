@@ -5,10 +5,14 @@ import TextInputField from './TextInputField';
 const SignupForm = ({
   user: {
     firstName, lastName, username, password
-  }, onSignup, onFormFieldChange
+  },
+  onSignup,
+  onFormFieldChange,
+  signInError
 }) => (
   <React.Fragment>
     <h3>Sign up</h3>
+    <span className="error">{signInError}</span>
     <form onSubmit={onSignup}>
       <TextInputField
         name="firstName"

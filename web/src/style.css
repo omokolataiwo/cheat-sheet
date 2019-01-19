@@ -60,3 +60,7 @@ nav .brand-logo {
 .modal .modal-content {
   padding-bottom: 10%;
 }
+
+.error {
+  color: red;
+}
