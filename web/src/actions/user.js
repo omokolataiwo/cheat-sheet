@@ -37,9 +37,11 @@ export const signin = user => (dispatch) => {
   dispatch({ type: SIGNING_IN_USER });
   return Axios.post(`${BASE_URL}/user/signin`, { ...user })
     .then(({ data: { data } }) => {
+      alert(JSON.stringify(data));
       handleSuccessfulUserAuthRequest(data, dispatch, signinSuccessful);
     })
     .catch(({ response }) => {
+      alert(JSON.stringify(response));
       handleFailedUserAuthRequest(response, dispatch, signinFailed);
     });
 };
