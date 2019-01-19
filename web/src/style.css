@@ -1,0 +1,62 @@
+.cheat-masonry-grid {
+  margin-top: 5%;
+}
+.category-section {
+  border: 1px solid;
+  border-color: #ccc;
+  margin: 0.5%;
+  padding: 1%;
+  width: 30%;
+}
+
+.cheat {
+  margin: 10px auto;
+}
+
+.cheat p {
+  margin: 0;
+}
+.cheat .line {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.favorite{
+  color: red;
+  cursor: pointer;
+}
+
+.signin-form h3 {
+  font-size: 1.7em;
+  margin: 0;
+}
+
+.btn {
+  background-color: #F05033;
+}
+.btn:hover {
+  background-color: #1a237e;
+}
+
+.signin-form {
+  width: 90%;
+}
+nav {
+  background-color: #1a237e;
+}
+nav .brand-logo {
+  margin-top: 6px;
+  margin-left: 16px;
+}
+.sidenav {
+  text-align: center;
+  padding: 1em;
+}
+
+.sidenav-trigger {
+  font-size: 2em;
+}
+
+.modal .modal-content {
+  padding-bottom: 10%;
+}
