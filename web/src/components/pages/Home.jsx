@@ -6,8 +6,8 @@ import Masonry from 'react-masonry-component';
 import Category from '../container/Category';
 import SearchBar from '../container/SearchBar';
 import { fetchAllCategoriesWithCheats, addToFavorite, searchSheetCheat } from '../../actions/cheat';
-import { signin, signup } from '../../actions/user';
-import { SIGNIN_SUCCESSFUL, SIGNOUT_SUCCESSFULLY } from '../../actions/type';
+import { signin, signup, resetUserState } from '../../actions/user';
+import { SIGNIN_SUCCESSFUL, SIGNOUT_SUCCESSFULLY, SIGNUP_FAILED } from '../../actions/type';
 import SideNavPage from '../container/SideNavPage';
 import signinValidationConstraint from '../../validatorConstraint/signin';
 
@@ -34,10 +34,17 @@ class Home extends React.Component {
   componentDidUpdate() {
     const {
       user,
+      resetUserState,
       history: { push }
     } = this.props;
     if (user.type === SIGNIN_SUCCESSFUL || user.type === SIGNOUT_SUCCESSFULLY) {
-      push('/user');
+      return push('/user');
+    }
+    if (user.type === SIGNUP_FAILED) {
+      resetUserState();
+      this.setState(prevState => ({
+        errors: { ...prevState.errors, signup: { ...user.errors.signup } }
+      }));
     }
   }
 
@@ -126,6 +133,7 @@ export default connect(
     addToFavorite,
     signin,
     signup,
-    searchSheetCheat
+    searchSheetCheat,
+    resetUserState
   }
 )(Home);

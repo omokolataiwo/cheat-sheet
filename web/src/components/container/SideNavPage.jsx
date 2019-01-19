@@ -45,7 +45,7 @@ class SideNavPage extends React.Component {
           <div className="modal-content">
             {!localStorage.getItem('token') && (
               <React.Fragment>
-                <SignupForm onFormFieldChange={onFormFieldChange} onSignup={onSignup} user={user} />
+                <SignupForm onFormFieldChange={onFormFieldChange} onSignup={onSignup} user={user} errors={errors.signup || {}} />
               </React.Fragment>
             )}
           </div>

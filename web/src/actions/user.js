@@ -60,3 +60,7 @@ export const logout = () => (dispatch) => {
   dispatch(logoutSuccessfully());
   dispatch({ type: INITIAL_USER_STATE });
 };
+
+export const resetUserState = () => (dispatch) => {
+  dispatch({ type: INITIAL_USER_STATE });
+};
