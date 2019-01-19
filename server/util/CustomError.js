@@ -20,6 +20,5 @@ export const handleException = (res, error) => {
   if (error instanceof CustomError) {
     return res.status(error.code).json({ error: error.message });
   }
-  return res.status(500).json({ error: error.message });
-  // return res.status(500).json({ error: 'Internal Server Error.' });
+  return res.status(500).json({ error: 'Internal Server Error.' });
 };
