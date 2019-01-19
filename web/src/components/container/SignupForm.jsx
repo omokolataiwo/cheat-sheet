@@ -7,12 +7,11 @@ const SignupForm = ({
     firstName, lastName, username, password
   },
   onSignup,
-  onFormFieldChange,
-  signInError
+  errors,
+  onFormFieldChange
 }) => (
   <React.Fragment>
     <h3>Sign up</h3>
-    <span className="error">{signInError}</span>
     <form onSubmit={onSignup}>
       <TextInputField
         name="firstName"
@@ -21,6 +20,7 @@ const SignupForm = ({
         size="3"
         onChange={onFormFieldChange}
         value={firstName}
+        errors={errors.firstName}
       />
       <TextInputField
         name="lastName"
@@ -29,6 +29,7 @@ const SignupForm = ({
         size="3"
         onChange={onFormFieldChange}
         value={lastName}
+        errors={errors.lastName}
       />
       <TextInputField
         name="username"
@@ -37,6 +38,7 @@ const SignupForm = ({
         size="3"
         onChange={onFormFieldChange}
         value={username}
+        errors={errors.username}
       />
       <TextInputField
         name="password"
@@ -45,6 +47,7 @@ const SignupForm = ({
         size="3"
         onChange={onFormFieldChange}
         value={password}
+        errors={errors.password}
       />
       <button type="submit" className="btn right">
         Create Account
