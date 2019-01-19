@@ -4,10 +4,9 @@ export default {
   async seed(req, res) {
     try {
       await seedDatase();
-      return res.status(200);
+      return res.status(200).json({});
     } catch (error) {
-      console.log('========================> ', error.message);
-      return res.status(500);
+      return res.status(500).json({});
     }
   }
 };
