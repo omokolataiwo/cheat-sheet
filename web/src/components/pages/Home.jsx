@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import propTypes from 'prop-types';
+import validate from 'validate.js';
 import Masonry from 'react-masonry-component';
 import Category from '../container/Category';
 import SearchBar from '../container/SearchBar';
@@ -8,6 +9,7 @@ import { fetchAllCategoriesWithCheats, addToFavorite, searchSheetCheat } from '.
 import { signin, signup } from '../../actions/user';
 import { SIGNIN_SUCCESSFUL, SIGNOUT_SUCCESSFULLY } from '../../actions/type';
 import SideNavPage from '../container/SideNavPage';
+import signinValidationConstraint from '../../validatorConstraint/signin';
 
 class Home extends React.Component {
   static propTypes = {
@@ -25,7 +27,8 @@ class Home extends React.Component {
       lastName: '',
       username: '',
       password: ''
-    }
+    },
+    errors: {}
   };
 
   componentDidUpdate() {
@@ -58,7 +61,15 @@ class Home extends React.Component {
     event.preventDefault();
     const { user } = this.state;
     const { signin } = this.props;
+    const validationError = validate(user, signinValidationConstraint);
 
+    this.setState(prevState => ({
+      errors: { ...prevState.errors, signin: { ...validationError } }
+    }));
+
+    if (validationError) {
+      return;
+    }
     signin(user);
   };
 
@@ -82,7 +93,7 @@ class Home extends React.Component {
       cheat: { categories, searchResult },
       user: userAction
     } = this.props;
-    const { user } = this.state;
+    const { user, errors } = this.state;
 
     categories = categories || [];
     categories = searchResult || categories;
@@ -92,6 +103,7 @@ class Home extends React.Component {
         <SideNavPage
           onFormFieldChange={this.formFieldChanged}
           user={user}
+          errors={errors}
           onSignin={this.signin}
           onSignup={this.signup}
           userAction={userAction}

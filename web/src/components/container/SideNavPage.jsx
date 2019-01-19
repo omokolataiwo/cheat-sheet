@@ -37,7 +37,7 @@ class SideNavPage extends React.Component {
       return null;
     }
     const {
-      onFormFieldChange, onSignin, onSignup, user, userAction
+      onFormFieldChange, onSignin, onSignup, user, errors, userAction
     } = this.props;
     return (
       <React.Fragment>
@@ -54,7 +54,13 @@ class SideNavPage extends React.Component {
         <div id="slide-out" className="sidenav">
           <ul>
             <li className="signin-form">
-              <SigninForm onFormFieldChange={onFormFieldChange} user={user} onSignin={onSignin} signInError={userAction.errors.signin} />
+              <SigninForm
+                onFormFieldChange={onFormFieldChange}
+                user={user}
+                errors={errors.signin || {}}
+                onSignin={onSignin}
+                signInError={userAction.errors.signin}
+              />
             </li>
           </ul>
           {'New User? '}
