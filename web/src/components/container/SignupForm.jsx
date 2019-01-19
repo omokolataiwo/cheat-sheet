@@ -15,7 +15,7 @@ const SignupForm = ({
     <form onSubmit={onSignup}>
       <TextInputField
         name="firstName"
-        placeholder="First name"
+        label="First name"
         type="text"
         size="3"
         onChange={onFormFieldChange}
@@ -24,7 +24,7 @@ const SignupForm = ({
       />
       <TextInputField
         name="lastName"
-        placeholder="Last name"
+        label="Last name"
         type="text"
         size="3"
         onChange={onFormFieldChange}
@@ -33,7 +33,7 @@ const SignupForm = ({
       />
       <TextInputField
         name="username"
-        placeholder="username"
+        label="Email Address"
         type="text"
         size="3"
         onChange={onFormFieldChange}
@@ -42,7 +42,7 @@ const SignupForm = ({
       />
       <TextInputField
         name="password"
-        placeholder="password"
+        label="Password"
         type="password"
         size="3"
         onChange={onFormFieldChange}

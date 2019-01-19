@@ -2,20 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const TextInputField = ({
-  type, label, placeholder, name, value, onChange, errors, size
+  type, label, name, value, onChange, errors, icon
 }) => (
   <div>
-    <div className={`form-group col-md-${size}`}>
-      {label && <label htmlFor={name}>{label}</label>}
+    <div className="input-field">
       <input
         type={type}
         id={name}
         className="form-control"
         value={value}
         name={name}
-        placeholder={placeholder}
         onChange={onChange}
       />
+      {label && (
+      <label htmlFor={name}>
+        {icon && <i className="material-icons">{icon}</i>}
+        {label}
+      </label>
+      )}
       <div className="error">
         {errors.map((error, index) => (
           <span key={index}>{error}</span>

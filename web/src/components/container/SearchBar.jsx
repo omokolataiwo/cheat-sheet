@@ -4,11 +4,12 @@ import TextInputField from './TextInputField';
 const SearchBar = ({ onSearchSheetCheat }) => (
   <div>
     <TextInputField
-      name="firstName"
+      name="search-input"
       placeholder="Search Sheet Cheat"
       type="text"
-      size="3"
       onChange={onSearchSheetCheat}
+      label="Search Git Cheat Sheet"
+      icon="search"
     />
   </div>
 );
