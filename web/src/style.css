@@ -31,7 +31,7 @@
   margin: 0;
 }
 
-.btn {
+.btn, .btn:active, .btn:focus {
   background-color: #F05033;
 }
 .btn:hover {
