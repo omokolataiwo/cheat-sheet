@@ -21,7 +21,7 @@ app.use(express.static('./web/public/'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/api/v1', baseRoute);
 
-// app.use('*', (req, res) => res.status(200).sendFile(path.join(__dirname, '../web/public/index.html')));
+app.use('*', (req, res) => res.status(200).sendFile(path.join(__dirname, '../web/public/index.html')));
 
 const port = process.env.PORT || 7000;
 app.listen(port, () => {

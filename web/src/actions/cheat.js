@@ -54,7 +54,9 @@ export const searchSheetCheat = term => (dispatch, getState) => {
   }
 
   const { categories } = getState().cheat;
-  const searchResult = categories.map(search(term.toLowerCase())).filter(category => !!category.cheats.length);
+  const searchResult = categories
+    .map(search(term.toLowerCase()))
+    .filter(category => !!category.cheats.length);
   return dispatch(searchCompleted(searchResult));
 };
 
