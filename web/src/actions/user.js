@@ -57,10 +57,7 @@ export const signup = user => (dispatch) => {
 
 export const logout = () => (dispatch) => {
   localStorage.removeItem('token');
-  dispatch(logoutSuccessfully());
-  dispatch({ type: INITIAL_USER_STATE });
+  return dispatch(logoutSuccessfully());
 };
 
-export const resetUserState = () => (dispatch) => {
-  dispatch({ type: INITIAL_USER_STATE });
-};
+export const resetUserState = () => dispatch => dispatch({ type: INITIAL_USER_STATE });
