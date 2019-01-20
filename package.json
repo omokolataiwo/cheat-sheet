@@ -21,8 +21,7 @@
     "lint:watch": "sane \"node_modules/.bin/esw web/src\" \"web/src\"",
     "test": "npm run test:client && npm run test:server",
     "test:client": "jest --updateSnapshot",
-    "test:server": "nyc --reporter=html --reporter=text mocha --exit -r @babel/register ./test/server/**/*.js",
-    "server:test:watch": "nodemon --exec \"yarn test:server\" ./test/server"
+    "test:server": "nyc -x ./server/seeder --reporter=html --reporter=text mocha --exit -r @babel/register ./test/server/**/*.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.10",

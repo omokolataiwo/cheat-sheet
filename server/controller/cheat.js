@@ -24,34 +24,26 @@ export default class {
     }
   }
 
-  static async getCommands(req, res) {
-    try {
-      const command = await Cheat.find();
-      return res.status(200).json(command);
-    } catch (error) {
-      return handleException(res, error);
-    }
-  }
-
   static async addFavoriteCheat(req, res) {
     try {
       const { cheatId, userId } = req.body;
       // Getting category on purpose for optimisation on client side
-      const { category: cheatCategory } = await Cheat.findOne({ _id: cheatId }, ['category']);
+      const { category: cheatCategory } = await Cheat.findOne({ _id: cheatId }, ['category']) || {};
 
       if (!cheatCategory) {
         throw new CustomError(404, 'Cheat not found.');
       }
-      let favorite = await Favorite.findOne({ userId, cheatId });
+      const favorite = await Favorite.findOne({ userId, cheatId });
+      let newFavorite = null;
 
       if (favorite) {
         favorite.remove();
       } else {
-        favorite = new Favorite(req.body);
-        await favorite.save();
+        newFavorite = new Favorite(req.body);
+        await newFavorite.save();
       }
 
-      return res.status(201).json({ data: { category: cheatCategory } });
+      return res.status(newFavorite ? 201 : 200).json({ data: { category: cheatCategory } });
     } catch (error) {
       return handleException(res, error);
     }
