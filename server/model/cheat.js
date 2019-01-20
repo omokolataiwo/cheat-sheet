@@ -9,11 +9,11 @@ const schema = new Schema({
   },
   description: {
     type: String,
-    required: true
+    required: [true, 'Description is required']
   },
   line: {
     type: String,
-    required: true
+    required: [true, 'Cheat command line is required']
   }
 });
 
