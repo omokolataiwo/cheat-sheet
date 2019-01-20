@@ -7,7 +7,7 @@ import {
   SEARCH_COMPLETED
 } from '../actions/type';
 
-const initialState = {
+export const initialState = {
   type: INITIAL_CHEAT_STATE,
   categories: [],
   searchResult: null,
