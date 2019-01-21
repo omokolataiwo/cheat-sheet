@@ -1,0 +1,1788 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup Form Component should render component 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <SignupForm
+    errors={Object {}}
+    user={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "errors": Object {},
+      "user": Object {},
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": <h3>
+          Sign up
+        </h3>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sign up",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Sign up",
+        ],
+        "type": "h3",
+      },
+      Object {
+        "instance": <form>
+          <div>
+            <div
+              class="input-field"
+            >
+              <input
+                class="form-control"
+                id="firstName"
+                name="firstName"
+                type="text"
+                value=""
+              />
+              <label
+                for="firstName"
+              >
+                First name
+              </label>
+              <div
+                class="error"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="input-field"
+            >
+              <input
+                class="form-control"
+                id="lastName"
+                name="lastName"
+                type="text"
+                value=""
+              />
+              <label
+                for="lastName"
+              >
+                Last name
+              </label>
+              <div
+                class="error"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="input-field"
+            >
+              <input
+                class="form-control"
+                id="username"
+                name="username"
+                type="text"
+                value=""
+              />
+              <label
+                for="username"
+              >
+                Email Address
+              </label>
+              <div
+                class="error"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="input-field"
+            >
+              <input
+                class="form-control"
+                id="password"
+                name="password"
+                type="password"
+                value=""
+              />
+              <label
+                for="password"
+              >
+                Password
+              </label>
+              <div
+                class="error"
+              />
+            </div>
+          </div>
+          <button
+            class="btn right"
+            type="submit"
+          >
+            Create Account
+          </button>
+        </form>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextInputField
+              errors={Array []}
+              label="First name"
+              name="firstName"
+              size="3"
+              type="text"
+            />,
+            <TextInputField
+              errors={Array []}
+              label="Last name"
+              name="lastName"
+              size="3"
+              type="text"
+            />,
+            <TextInputField
+              errors={Array []}
+              label="Email Address"
+              name="username"
+              size="3"
+              type="text"
+            />,
+            <TextInputField
+              errors={Array []}
+              label="Password"
+              name="password"
+              size="3"
+              type="password"
+            />,
+            <button
+              className="btn right"
+              type="submit"
+            >
+              Create Account
+            </button>,
+          ],
+          "onSubmit": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "errors": Array [],
+              "label": "First name",
+              "name": "firstName",
+              "onChange": undefined,
+              "size": "3",
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <div>
+                <div
+                  class="input-field"
+                >
+                  <input
+                    class="form-control"
+                    id="firstName"
+                    name="firstName"
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    for="firstName"
+                  >
+                    First name
+                  </label>
+                  <div
+                    class="error"
+                  />
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="input-field"
+                >
+                  <input
+                    className="form-control"
+                    id="firstName"
+                    name="firstName"
+                    type="text"
+                  />
+                  <label
+                    htmlFor="firstName"
+                  >
+                    First name
+                  </label>
+                  <div
+                    className="error"
+                  />
+                </div>,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="firstName"
+                      name="firstName"
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      for="firstName"
+                    >
+                      First name
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        className="form-control"
+                        id="firstName"
+                        name="firstName"
+                        type="text"
+                      />,
+                      <label
+                        htmlFor="firstName"
+                      >
+                        First name
+                      </label>,
+                      <div
+                        className="error"
+                      />,
+                    ],
+                    "className": "input-field",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <input
+                        class="form-control"
+                        id="firstName"
+                        name="firstName"
+                        type="text"
+                        value=""
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "form-control",
+                        "id": "firstName",
+                        "name": "firstName",
+                        "onChange": undefined,
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": <label
+                        for="firstName"
+                      >
+                        First name
+                      </label>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          undefined,
+                          "First name",
+                        ],
+                        "htmlFor": "firstName",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "First name",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": <div
+                        class="error"
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [],
+                        "className": "error",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Array [],
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "errors": Array [],
+              "label": "Last name",
+              "name": "lastName",
+              "onChange": undefined,
+              "size": "3",
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <div>
+                <div
+                  class="input-field"
+                >
+                  <input
+                    class="form-control"
+                    id="lastName"
+                    name="lastName"
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    for="lastName"
+                  >
+                    Last name
+                  </label>
+                  <div
+                    class="error"
+                  />
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="input-field"
+                >
+                  <input
+                    className="form-control"
+                    id="lastName"
+                    name="lastName"
+                    type="text"
+                  />
+                  <label
+                    htmlFor="lastName"
+                  >
+                    Last name
+                  </label>
+                  <div
+                    className="error"
+                  />
+                </div>,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="lastName"
+                      name="lastName"
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      for="lastName"
+                    >
+                      Last name
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        className="form-control"
+                        id="lastName"
+                        name="lastName"
+                        type="text"
+                      />,
+                      <label
+                        htmlFor="lastName"
+                      >
+                        Last name
+                      </label>,
+                      <div
+                        className="error"
+                      />,
+                    ],
+                    "className": "input-field",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <input
+                        class="form-control"
+                        id="lastName"
+                        name="lastName"
+                        type="text"
+                        value=""
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "form-control",
+                        "id": "lastName",
+                        "name": "lastName",
+                        "onChange": undefined,
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": <label
+                        for="lastName"
+                      >
+                        Last name
+                      </label>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          undefined,
+                          "Last name",
+                        ],
+                        "htmlFor": "lastName",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Last name",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": <div
+                        class="error"
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [],
+                        "className": "error",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Array [],
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "errors": Array [],
+              "label": "Email Address",
+              "name": "username",
+              "onChange": undefined,
+              "size": "3",
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <div>
+                <div
+                  class="input-field"
+                >
+                  <input
+                    class="form-control"
+                    id="username"
+                    name="username"
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    for="username"
+                  >
+                    Email Address
+                  </label>
+                  <div
+                    class="error"
+                  />
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="input-field"
+                >
+                  <input
+                    className="form-control"
+                    id="username"
+                    name="username"
+                    type="text"
+                  />
+                  <label
+                    htmlFor="username"
+                  >
+                    Email Address
+                  </label>
+                  <div
+                    className="error"
+                  />
+                </div>,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="username"
+                      name="username"
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      for="username"
+                    >
+                      Email Address
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        className="form-control"
+                        id="username"
+                        name="username"
+                        type="text"
+                      />,
+                      <label
+                        htmlFor="username"
+                      >
+                        Email Address
+                      </label>,
+                      <div
+                        className="error"
+                      />,
+                    ],
+                    "className": "input-field",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <input
+                        class="form-control"
+                        id="username"
+                        name="username"
+                        type="text"
+                        value=""
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "form-control",
+                        "id": "username",
+                        "name": "username",
+                        "onChange": undefined,
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": <label
+                        for="username"
+                      >
+                        Email Address
+                      </label>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          undefined,
+                          "Email Address",
+                        ],
+                        "htmlFor": "username",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Email Address",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": <div
+                        class="error"
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [],
+                        "className": "error",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Array [],
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "errors": Array [],
+              "label": "Password",
+              "name": "password",
+              "onChange": undefined,
+              "size": "3",
+              "type": "password",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <div>
+                <div
+                  class="input-field"
+                >
+                  <input
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    type="password"
+                    value=""
+                  />
+                  <label
+                    for="password"
+                  >
+                    Password
+                  </label>
+                  <div
+                    class="error"
+                  />
+                </div>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="input-field"
+                >
+                  <input
+                    className="form-control"
+                    id="password"
+                    name="password"
+                    type="password"
+                  />
+                  <label
+                    htmlFor="password"
+                  >
+                    Password
+                  </label>
+                  <div
+                    className="error"
+                  />
+                </div>,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="password"
+                      name="password"
+                      type="password"
+                      value=""
+                    />
+                    <label
+                      for="password"
+                    >
+                      Password
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        className="form-control"
+                        id="password"
+                        name="password"
+                        type="password"
+                      />,
+                      <label
+                        htmlFor="password"
+                      >
+                        Password
+                      </label>,
+                      <div
+                        className="error"
+                      />,
+                    ],
+                    "className": "input-field",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <input
+                        class="form-control"
+                        id="password"
+                        name="password"
+                        type="password"
+                        value=""
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "form-control",
+                        "id": "password",
+                        "name": "password",
+                        "onChange": undefined,
+                        "type": "password",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        undefined,
+                      ],
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": <label
+                        for="password"
+                      >
+                        Password
+                      </label>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          undefined,
+                          "Password",
+                        ],
+                        "htmlFor": "password",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Password",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": <div
+                        class="error"
+                      />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [],
+                        "className": "error",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Array [],
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": <button
+              class="btn right"
+              type="submit"
+            >
+              Create Account
+            </button>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Create Account",
+              "className": "btn right",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Create Account",
+            ],
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "errors": Object {},
+        "user": Object {},
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <h3>
+            Sign up
+          </h3>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sign up",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Sign up",
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": <form>
+            <div>
+              <div
+                class="input-field"
+              >
+                <input
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                  type="text"
+                  value=""
+                />
+                <label
+                  for="firstName"
+                >
+                  First name
+                </label>
+                <div
+                  class="error"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="input-field"
+              >
+                <input
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                  type="text"
+                  value=""
+                />
+                <label
+                  for="lastName"
+                >
+                  Last name
+                </label>
+                <div
+                  class="error"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="input-field"
+              >
+                <input
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  type="text"
+                  value=""
+                />
+                <label
+                  for="username"
+                >
+                  Email Address
+                </label>
+                <div
+                  class="error"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="input-field"
+              >
+                <input
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  type="password"
+                  value=""
+                />
+                <label
+                  for="password"
+                >
+                  Password
+                </label>
+                <div
+                  class="error"
+                />
+              </div>
+            </div>
+            <button
+              class="btn right"
+              type="submit"
+            >
+              Create Account
+            </button>
+          </form>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextInputField
+                errors={Array []}
+                label="First name"
+                name="firstName"
+                size="3"
+                type="text"
+              />,
+              <TextInputField
+                errors={Array []}
+                label="Last name"
+                name="lastName"
+                size="3"
+                type="text"
+              />,
+              <TextInputField
+                errors={Array []}
+                label="Email Address"
+                name="username"
+                size="3"
+                type="text"
+              />,
+              <TextInputField
+                errors={Array []}
+                label="Password"
+                name="password"
+                size="3"
+                type="password"
+              />,
+              <button
+                className="btn right"
+                type="submit"
+              >
+                Create Account
+              </button>,
+            ],
+            "onSubmit": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "errors": Array [],
+                "label": "First name",
+                "name": "firstName",
+                "onChange": undefined,
+                "size": "3",
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": <div>
+                  <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="firstName"
+                      name="firstName"
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      for="firstName"
+                    >
+                      First name
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="input-field"
+                  >
+                    <input
+                      className="form-control"
+                      id="firstName"
+                      name="firstName"
+                      type="text"
+                    />
+                    <label
+                      htmlFor="firstName"
+                    >
+                      First name
+                    </label>
+                    <div
+                      className="error"
+                    />
+                  </div>,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div
+                      class="input-field"
+                    >
+                      <input
+                        class="form-control"
+                        id="firstName"
+                        name="firstName"
+                        type="text"
+                        value=""
+                      />
+                      <label
+                        for="firstName"
+                      >
+                        First name
+                      </label>
+                      <div
+                        class="error"
+                      />
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="form-control"
+                          id="firstName"
+                          name="firstName"
+                          type="text"
+                        />,
+                        <label
+                          htmlFor="firstName"
+                        >
+                          First name
+                        </label>,
+                        <div
+                          className="error"
+                        />,
+                      ],
+                      "className": "input-field",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <input
+                          class="form-control"
+                          id="firstName"
+                          name="firstName"
+                          type="text"
+                          value=""
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "form-control",
+                          "id": "firstName",
+                          "name": "firstName",
+                          "onChange": undefined,
+                          "type": "text",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": <label
+                          for="firstName"
+                        >
+                          First name
+                        </label>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            undefined,
+                            "First name",
+                          ],
+                          "htmlFor": "firstName",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "First name",
+                        ],
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": <div
+                          class="error"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [],
+                          "className": "error",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Array [],
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "errors": Array [],
+                "label": "Last name",
+                "name": "lastName",
+                "onChange": undefined,
+                "size": "3",
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": <div>
+                  <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="lastName"
+                      name="lastName"
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      for="lastName"
+                    >
+                      Last name
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="input-field"
+                  >
+                    <input
+                      className="form-control"
+                      id="lastName"
+                      name="lastName"
+                      type="text"
+                    />
+                    <label
+                      htmlFor="lastName"
+                    >
+                      Last name
+                    </label>
+                    <div
+                      className="error"
+                    />
+                  </div>,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div
+                      class="input-field"
+                    >
+                      <input
+                        class="form-control"
+                        id="lastName"
+                        name="lastName"
+                        type="text"
+                        value=""
+                      />
+                      <label
+                        for="lastName"
+                      >
+                        Last name
+                      </label>
+                      <div
+                        class="error"
+                      />
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="form-control"
+                          id="lastName"
+                          name="lastName"
+                          type="text"
+                        />,
+                        <label
+                          htmlFor="lastName"
+                        >
+                          Last name
+                        </label>,
+                        <div
+                          className="error"
+                        />,
+                      ],
+                      "className": "input-field",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <input
+                          class="form-control"
+                          id="lastName"
+                          name="lastName"
+                          type="text"
+                          value=""
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "form-control",
+                          "id": "lastName",
+                          "name": "lastName",
+                          "onChange": undefined,
+                          "type": "text",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": <label
+                          for="lastName"
+                        >
+                          Last name
+                        </label>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            undefined,
+                            "Last name",
+                          ],
+                          "htmlFor": "lastName",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Last name",
+                        ],
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": <div
+                          class="error"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [],
+                          "className": "error",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Array [],
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "errors": Array [],
+                "label": "Email Address",
+                "name": "username",
+                "onChange": undefined,
+                "size": "3",
+                "type": "text",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": <div>
+                  <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="username"
+                      name="username"
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      for="username"
+                    >
+                      Email Address
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="input-field"
+                  >
+                    <input
+                      className="form-control"
+                      id="username"
+                      name="username"
+                      type="text"
+                    />
+                    <label
+                      htmlFor="username"
+                    >
+                      Email Address
+                    </label>
+                    <div
+                      className="error"
+                    />
+                  </div>,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div
+                      class="input-field"
+                    >
+                      <input
+                        class="form-control"
+                        id="username"
+                        name="username"
+                        type="text"
+                        value=""
+                      />
+                      <label
+                        for="username"
+                      >
+                        Email Address
+                      </label>
+                      <div
+                        class="error"
+                      />
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="form-control"
+                          id="username"
+                          name="username"
+                          type="text"
+                        />,
+                        <label
+                          htmlFor="username"
+                        >
+                          Email Address
+                        </label>,
+                        <div
+                          className="error"
+                        />,
+                      ],
+                      "className": "input-field",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <input
+                          class="form-control"
+                          id="username"
+                          name="username"
+                          type="text"
+                          value=""
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "form-control",
+                          "id": "username",
+                          "name": "username",
+                          "onChange": undefined,
+                          "type": "text",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": <label
+                          for="username"
+                        >
+                          Email Address
+                        </label>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            undefined,
+                            "Email Address",
+                          ],
+                          "htmlFor": "username",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Email Address",
+                        ],
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": <div
+                          class="error"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [],
+                          "className": "error",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Array [],
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "errors": Array [],
+                "label": "Password",
+                "name": "password",
+                "onChange": undefined,
+                "size": "3",
+                "type": "password",
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": <div>
+                  <div
+                    class="input-field"
+                  >
+                    <input
+                      class="form-control"
+                      id="password"
+                      name="password"
+                      type="password"
+                      value=""
+                    />
+                    <label
+                      for="password"
+                    >
+                      Password
+                    </label>
+                    <div
+                      class="error"
+                    />
+                  </div>
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="input-field"
+                  >
+                    <input
+                      className="form-control"
+                      id="password"
+                      name="password"
+                      type="password"
+                    />
+                    <label
+                      htmlFor="password"
+                    >
+                      Password
+                    </label>
+                    <div
+                      className="error"
+                    />
+                  </div>,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div
+                      class="input-field"
+                    >
+                      <input
+                        class="form-control"
+                        id="password"
+                        name="password"
+                        type="password"
+                        value=""
+                      />
+                      <label
+                        for="password"
+                      >
+                        Password
+                      </label>
+                      <div
+                        class="error"
+                      />
+                    </div>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          className="form-control"
+                          id="password"
+                          name="password"
+                          type="password"
+                        />,
+                        <label
+                          htmlFor="password"
+                        >
+                          Password
+                        </label>,
+                        <div
+                          className="error"
+                        />,
+                      ],
+                      "className": "input-field",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <input
+                          class="form-control"
+                          id="password"
+                          name="password"
+                          type="password"
+                          value=""
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "form-control",
+                          "id": "password",
+                          "name": "password",
+                          "onChange": undefined,
+                          "type": "password",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          undefined,
+                        ],
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": <label
+                          for="password"
+                        >
+                          Password
+                        </label>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            undefined,
+                            "Password",
+                          ],
+                          "htmlFor": "password",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Password",
+                        ],
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": <div
+                          class="error"
+                        />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [],
+                          "className": "error",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Array [],
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": <button
+                class="btn right"
+                type="submit"
+              >
+                Create Account
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Create Account",
+                "className": "btn right",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Create Account",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

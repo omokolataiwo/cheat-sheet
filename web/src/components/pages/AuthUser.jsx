@@ -4,7 +4,7 @@ import Masonry from 'react-masonry-component';
 import { fetchFavoriteCheats } from '../../actions/cheat';
 import Cheat from '../container/Cheat';
 
-class AuthUser extends Component {
+export class AuthUser extends Component {
   state = {};
 
   componentDidMount() {

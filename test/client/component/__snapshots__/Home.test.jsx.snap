@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should render component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    addToFavorite={[MockFunction]}
+    cheat={
+      Object {
+        "categories": Array [
+          Object {
+            "cheats": Array [
+              Object {
+                "description": "Initialize a repo",
+                "line": "git init",
+              },
+            ],
+            "title": "Installation",
+          },
+        ],
+        "errors": Object {},
+      }
+    }
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    resetUserState={[MockFunction]}
+    searchSheetCheat={[MockFunction]}
+    signin={[MockFunction]}
+    signup={[MockFunction]}
+    user={
+      Object {
+        "type": Symbol(INITIAL_USER_STATE),
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SideNavPage
+          errors={Object {}}
+          onFormFieldChange={[Function]}
+          onSignin={[Function]}
+          onSignup={[Function]}
+          user={
+            Object {
+              "firstName": "",
+              "lastName": "",
+              "password": "",
+              "username": "",
+            }
+          }
+          userAction={
+            Object {
+              "type": Symbol(INITIAL_USER_STATE),
+            }
+          }
+        />,
+        <SearchBar
+          onSearchSheetCheat={[Function]}
+        />,
+        <MasonryComponent
+          className="cheat-masonry-grid"
+          disableImagesLoaded={false}
+          elementType="div"
+          enableResizableChildren={false}
+          imagesLoadedOptions={Object {}}
+          onLayoutComplete={[Function]}
+          onRemoveComplete={[Function]}
+          options={Object {}}
+          updateOnEachImageLoad={false}
+        >
+          <Category
+            category={
+              Object {
+                "cheats": Array [
+                  Object {
+                    "description": "Initialize a repo",
+                    "line": "git init",
+                  },
+                ],
+                "title": "Installation",
+              }
+            }
+            onAddToFavorite={[Function]}
+          />
+        </MasonryComponent>,
+      ],
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "errors": Object {},
+          "onFormFieldChange": [Function],
+          "onSignin": [Function],
+          "onSignup": [Function],
+          "user": Object {
+            "firstName": "",
+            "lastName": "",
+            "password": "",
+            "username": "",
+          },
+          "userAction": Object {
+            "type": Symbol(INITIAL_USER_STATE),
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onSearchSheetCheat": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Mon Jan 21 2019 13:38:26 GMT+0100 (West Africa Standard Time)",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Category
+              category={
+                Object {
+                  "cheats": Array [
+                    Object {
+                      "description": "Initialize a repo",
+                      "line": "git init",
+                    },
+                  ],
+                  "title": "Installation",
+                }
+              }
+              onAddToFavorite={[Function]}
+            />,
+          ],
+          "className": "cheat-masonry-grid",
+          "disableImagesLoaded": false,
+          "elementType": "div",
+          "enableResizableChildren": false,
+          "imagesLoadedOptions": Object {},
+          "onLayoutComplete": [Function],
+          "onRemoveComplete": [Function],
+          "options": Object {},
+          "updateOnEachImageLoad": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "category": Object {
+                "cheats": Array [
+                  Object {
+                    "description": "Initialize a repo",
+                    "line": "git init",
+                  },
+                ],
+                "title": "Installation",
+              },
+              "onAddToFavorite": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SideNavPage
+            errors={Object {}}
+            onFormFieldChange={[Function]}
+            onSignin={[Function]}
+            onSignup={[Function]}
+            user={
+              Object {
+                "firstName": "",
+                "lastName": "",
+                "password": "",
+                "username": "",
+              }
+            }
+            userAction={
+              Object {
+                "type": Symbol(INITIAL_USER_STATE),
+              }
+            }
+          />,
+          <SearchBar
+            onSearchSheetCheat={[Function]}
+          />,
+          <MasonryComponent
+            className="cheat-masonry-grid"
+            disableImagesLoaded={false}
+            elementType="div"
+            enableResizableChildren={false}
+            imagesLoadedOptions={Object {}}
+            onLayoutComplete={[Function]}
+            onRemoveComplete={[Function]}
+            options={Object {}}
+            updateOnEachImageLoad={false}
+          >
+            <Category
+              category={
+                Object {
+                  "cheats": Array [
+                    Object {
+                      "description": "Initialize a repo",
+                      "line": "git init",
+                    },
+                  ],
+                  "title": "Installation",
+                }
+              }
+              onAddToFavorite={[Function]}
+            />
+          </MasonryComponent>,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "errors": Object {},
+            "onFormFieldChange": [Function],
+            "onSignin": [Function],
+            "onSignup": [Function],
+            "user": Object {
+              "firstName": "",
+              "lastName": "",
+              "password": "",
+              "username": "",
+            },
+            "userAction": Object {
+              "type": Symbol(INITIAL_USER_STATE),
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "onSearchSheetCheat": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Mon Jan 21 2019 13:38:26 GMT+0100 (West Africa Standard Time)",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Category
+                category={
+                  Object {
+                    "cheats": Array [
+                      Object {
+                        "description": "Initialize a repo",
+                        "line": "git init",
+                      },
+                    ],
+                    "title": "Installation",
+                  }
+                }
+                onAddToFavorite={[Function]}
+              />,
+            ],
+            "className": "cheat-masonry-grid",
+            "disableImagesLoaded": false,
+            "elementType": "div",
+            "enableResizableChildren": false,
+            "imagesLoadedOptions": Object {},
+            "onLayoutComplete": [Function],
+            "onRemoveComplete": [Function],
+            "options": Object {},
+            "updateOnEachImageLoad": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "category": Object {
+                  "cheats": Array [
+                    Object {
+                      "description": "Initialize a repo",
+                      "line": "git init",
+                    },
+                  ],
+                  "title": "Installation",
+                },
+                "onAddToFavorite": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

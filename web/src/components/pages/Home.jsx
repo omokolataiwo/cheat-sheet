@@ -12,7 +12,7 @@ import SideNavPage from '../container/SideNavPage';
 import signinValidationConstraint from '../../validatorConstraint/signin';
 import signupValidationConstraints from '../../validatorConstraint/signup';
 
-class Home extends React.Component {
+export class Home extends React.Component {
   static propTypes = {
     cheat: propTypes.shape({
       cheats: propTypes.arrayOf()
@@ -112,7 +112,6 @@ class Home extends React.Component {
       user: userAction
     } = this.props;
     const { user, errors } = this.state;
-
     categories = categories || [];
     categories = searchResult || categories;
 
