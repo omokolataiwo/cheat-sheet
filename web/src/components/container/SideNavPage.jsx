@@ -5,8 +5,6 @@ import SignupForm from './SignupForm';
 import { SIGNIN_SUCCESSFUL, SIGNUP_SUCCESSFUL } from '../../actions/type';
 
 class SideNavPage extends React.Component {
-  sideBarInstance = null;
-
   sNavInstance = null;
 
   modalInstance = null;
@@ -39,13 +37,19 @@ class SideNavPage extends React.Component {
     const {
       onFormFieldChange, onSignin, onSignup, user, errors, userAction
     } = this.props;
+
     return (
       <React.Fragment>
         <div id="signup-modal" className="modal">
           <div className="modal-content">
             {!localStorage.getItem('token') && (
               <React.Fragment>
-                <SignupForm onFormFieldChange={onFormFieldChange} onSignup={onSignup} user={user} errors={errors.signup || {}} />
+                <SignupForm
+                  onFormFieldChange={onFormFieldChange}
+                  onSignup={onSignup}
+                  user={user}
+                  errors={errors.signup || {}}
+                />
               </React.Fragment>
             )}
           </div>

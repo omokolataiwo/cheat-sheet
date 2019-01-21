@@ -1,0 +1,650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNavPage Component should render component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SideNavPage
+    errors={Object {}}
+    onFormFieldChange={[MockFunction]}
+    onSignin={[MockFunction]}
+    onSignup={[MockFunction]}
+    user={Object {}}
+    userAction={
+      Object {
+        "errors": Object {},
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="modal"
+          id="signup-modal"
+        >
+          <div
+            className="modal-content"
+          >
+            <React.Fragment>
+              <SignupForm
+                errors={Object {}}
+                onFormFieldChange={[MockFunction]}
+                onSignup={[MockFunction]}
+                user={Object {}}
+              />
+            </React.Fragment>
+          </div>
+        </div>,
+        <div
+          className="sidenav"
+          id="slide-out"
+        >
+          <ul>
+            <li
+              className="signin-form"
+            >
+              <SigninForm
+                errors={Object {}}
+                onFormFieldChange={[MockFunction]}
+                onSignin={[MockFunction]}
+                user={Object {}}
+              />
+            </li>
+          </ul>
+          New User? 
+          <a
+            className="modal-trigger"
+            href="#signup-modal"
+          >
+            Sign Up
+          </a>
+        </div>,
+        <a
+          className="sidenav-trigger"
+          data-target="slide-out"
+          href="#"
+        >
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon="bars"
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </a>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="modal-content"
+          >
+            <React.Fragment>
+              <SignupForm
+                errors={Object {}}
+                onFormFieldChange={[MockFunction]}
+                onSignup={[MockFunction]}
+                user={Object {}}
+              />
+            </React.Fragment>
+          </div>,
+          "className": "modal",
+          "id": "signup-modal",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <React.Fragment>
+              <SignupForm
+                errors={Object {}}
+                onFormFieldChange={[MockFunction]}
+                onSignup={[MockFunction]}
+                user={Object {}}
+              />
+            </React.Fragment>,
+            "className": "modal-content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <SignupForm
+                errors={Object {}}
+                onFormFieldChange={[MockFunction]}
+                onSignup={[MockFunction]}
+                user={Object {}}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "errors": Object {},
+                "onFormFieldChange": [MockFunction],
+                "onSignup": [MockFunction],
+                "user": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": Symbol(react.fragment),
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ul>
+              <li
+                className="signin-form"
+              >
+                <SigninForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignin={[MockFunction]}
+                  user={Object {}}
+                />
+              </li>
+            </ul>,
+            "New User? ",
+            <a
+              className="modal-trigger"
+              href="#signup-modal"
+            >
+              Sign Up
+            </a>,
+          ],
+          "className": "sidenav",
+          "id": "slide-out",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                className="signin-form"
+              >
+                <SigninForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignin={[MockFunction]}
+                  user={Object {}}
+                />
+              </li>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <SigninForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignin={[MockFunction]}
+                  user={Object {}}
+                />,
+                "className": "signin-form",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "errors": Object {},
+                  "onFormFieldChange": [MockFunction],
+                  "onSignin": [MockFunction],
+                  "signInError": undefined,
+                  "user": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+          "New User? ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign Up",
+              "className": "modal-trigger",
+              "href": "#signup-modal",
+            },
+            "ref": null,
+            "rendered": "Sign Up",
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon="bars"
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />,
+          "className": "sidenav-trigger",
+          "data-target": "slide-out",
+          "href": "#",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "border": false,
+            "className": "",
+            "fixedWidth": false,
+            "flip": null,
+            "icon": "bars",
+            "inverse": false,
+            "listItem": false,
+            "mask": null,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "symbol": false,
+            "title": "",
+            "transform": null,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "a",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="modal"
+            id="signup-modal"
+          >
+            <div
+              className="modal-content"
+            >
+              <React.Fragment>
+                <SignupForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignup={[MockFunction]}
+                  user={Object {}}
+                />
+              </React.Fragment>
+            </div>
+          </div>,
+          <div
+            className="sidenav"
+            id="slide-out"
+          >
+            <ul>
+              <li
+                className="signin-form"
+              >
+                <SigninForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignin={[MockFunction]}
+                  user={Object {}}
+                />
+              </li>
+            </ul>
+            New User? 
+            <a
+              className="modal-trigger"
+              href="#signup-modal"
+            >
+              Sign Up
+            </a>
+          </div>,
+          <a
+            className="sidenav-trigger"
+            data-target="slide-out"
+            href="#"
+          >
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon="bars"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title=""
+              transform={null}
+            />
+          </a>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="modal-content"
+            >
+              <React.Fragment>
+                <SignupForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignup={[MockFunction]}
+                  user={Object {}}
+                />
+              </React.Fragment>
+            </div>,
+            "className": "modal",
+            "id": "signup-modal",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <React.Fragment>
+                <SignupForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignup={[MockFunction]}
+                  user={Object {}}
+                />
+              </React.Fragment>,
+              "className": "modal-content",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <SignupForm
+                  errors={Object {}}
+                  onFormFieldChange={[MockFunction]}
+                  onSignup={[MockFunction]}
+                  user={Object {}}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "errors": Object {},
+                  "onFormFieldChange": [MockFunction],
+                  "onSignup": [MockFunction],
+                  "user": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Symbol(react.fragment),
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ul>
+                <li
+                  className="signin-form"
+                >
+                  <SigninForm
+                    errors={Object {}}
+                    onFormFieldChange={[MockFunction]}
+                    onSignin={[MockFunction]}
+                    user={Object {}}
+                  />
+                </li>
+              </ul>,
+              "New User? ",
+              <a
+                className="modal-trigger"
+                href="#signup-modal"
+              >
+                Sign Up
+              </a>,
+            ],
+            "className": "sidenav",
+            "id": "slide-out",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  className="signin-form"
+                >
+                  <SigninForm
+                    errors={Object {}}
+                    onFormFieldChange={[MockFunction]}
+                    onSignin={[MockFunction]}
+                    user={Object {}}
+                  />
+                </li>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <SigninForm
+                    errors={Object {}}
+                    onFormFieldChange={[MockFunction]}
+                    onSignin={[MockFunction]}
+                    user={Object {}}
+                  />,
+                  "className": "signin-form",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "errors": Object {},
+                    "onFormFieldChange": [MockFunction],
+                    "onSignin": [MockFunction],
+                    "signInError": undefined,
+                    "user": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              "type": "ul",
+            },
+            "New User? ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sign Up",
+                "className": "modal-trigger",
+                "href": "#signup-modal",
+              },
+              "ref": null,
+              "rendered": "Sign Up",
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon="bars"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title=""
+              transform={null}
+            />,
+            "className": "sidenav-trigger",
+            "data-target": "slide-out",
+            "href": "#",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "border": false,
+              "className": "",
+              "fixedWidth": false,
+              "flip": null,
+              "icon": "bars",
+              "inverse": false,
+              "listItem": false,
+              "mask": null,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "symbol": false,
+              "title": "",
+              "transform": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "a",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
